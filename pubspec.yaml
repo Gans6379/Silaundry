@@ -1,0 +1,24 @@
+name: silaundry
+description: SILAUNDRY - aplikasi desktop laundry (UI slicing Data Master).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fl_chart: ^0.69.0              # bar / line / pie chart
+  sqflite_common_ffi: ^2.3.3     # SQLite untuk desktop (Windows/Linux/macOS)
+  sqlite3_flutter_libs: ^0.5.24  # membawa library sqlite3 native
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
